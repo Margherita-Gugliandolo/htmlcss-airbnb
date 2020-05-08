@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.container{
+  width:1200px;
+  height:1800px;
+  margin:auto;
+}
+
+.City{
+  width:1200px;
+  height:600px;
+  position:relative;
+  font-size: 25px;
+  border: 1px solid black;
+  background-size: cover;
+  background-position: center;
+}
+
+.name{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%)
+  font-size: 25px;
+  background-color: rgba(0,0,0,0.6);
+  padding:10px;
+  background-size: cover;
+  background-position: center;
+  color:white;
+}
+
+#Mosca{
+  background-image: url('Mosca.jpg');
+}
+
+
+#Roma{
+  background-image: url('Roma.jpg');
+}
+
+#Maldive{
+  background-image: url('Maldive.jpg');
+}
