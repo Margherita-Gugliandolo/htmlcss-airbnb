@@ -1,46 +1,54 @@
 *{
   margin:0;
   padding:0;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
-.container{
-  width:1200px;
-  height:1800px;
+body{
+  background-color: #092168;
+}
+
+#container{
+  width:100vh;
+  height: 100vh;
   margin:auto;
-}
-
-.City{
-  width:1200px;
-  height:600px;
-  position:relative;
-  font-size: 25px;
-  border: 1px solid black;
-  background-size: cover;
-  background-position: center;
-}
-
-.name{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%)
-  font-size: 25px;
-  background-color: rgba(0,0,0,0.6);
-  padding:10px;
-  background-size: cover;
-  background-position: center;
-  color:white;
-}
-
-#Mosca{
-  background-image: url('Mosca.jpg');
+  margin-top: 20px;
 }
 
 
 #Roma{
-  background-image: url('Roma.jpg');
+ background-image:url('img/Roma.jpg');
+}
+
+#Mosca{
+  background-image:url('img/Mosca.jpg');
 }
 
 #Maldive{
-  background-image: url('Maldive.jpg');
+  background-image:url('img/Maldive.jpg');
 }
+
+div, .city{
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    width:500px;
+    height:500px;
+    background-size: cover;
+    background-color: black;
+    border: 3px solid white;
+    position:relative;
+    }
+
+.city .name{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    text-shadow: 2px 2px 3px black;
+    /* background-color:rgba(0, 0, 0, 0.5); */
+    padding: 10px;
+   }
+   .style{
+    background-color: rgba(0, 0, 0, 0.5);
+   }
